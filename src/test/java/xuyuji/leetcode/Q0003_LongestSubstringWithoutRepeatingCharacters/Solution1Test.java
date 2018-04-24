@@ -15,9 +15,17 @@ public class Solution1Test {
 	}
 
 	@Test
-	public void testLengthOfLongestSubstring() {
+	public void testLengthOfLongestSubstring1() {
 		assertEquals(3, solution.lengthOfLongestSubstring("abcabcbb"));
+	}
+
+	@Test
+	public void testLengthOfLongestSubstring2() {
 		assertEquals(1, solution.lengthOfLongestSubstring("bbbbb"));
+	}
+
+	@Test
+	public void testLengthOfLongestSubstring3() {
 		assertEquals(3, solution.lengthOfLongestSubstring("pwwkew"));
 	}
 }
