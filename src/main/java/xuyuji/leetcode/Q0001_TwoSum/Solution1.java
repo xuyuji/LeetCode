@@ -1,6 +1,6 @@
 package xuyuji.leetcode.Q0001_TwoSum;
 
-public class TwoSum {
+public class Solution1 {
     public int[] twoSum(int[] nums, int target) {
         int[] result = new int[2];
         for(int i = 0; i < nums.length - 1; i++){
