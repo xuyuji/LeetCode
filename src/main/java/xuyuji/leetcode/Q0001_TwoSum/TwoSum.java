@@ -1,4 +1,4 @@
-package xuyuji.leetcode.twosum;
+package xuyuji.leetcode.Q0001_TwoSum;
 
 public class TwoSum {
     public int[] twoSum(int[] nums, int target) {
