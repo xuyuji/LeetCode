@@ -44,18 +44,4 @@ public class Solution1 {
 			return (int) atoi;
 		}
 	}
-
-	public static void main(String[] args) {
-		// System.out.println('+' + 0);
-		// System.out.println(' ' + 0);
-		Solution1 solution = new Solution1();
-		System.out.println(solution.myAtoi(" "));
-		System.out.println(solution.myAtoi("+"));
-		System.out.println(solution.myAtoi("-"));
-		System.out.println(solution.myAtoi("42"));
-		System.out.println(solution.myAtoi("   -42"));
-		System.out.println(solution.myAtoi("4193 with words"));
-		System.out.println(solution.myAtoi("words and 987"));
-		System.out.println(solution.myAtoi("-91283472332"));
-	}
 }
