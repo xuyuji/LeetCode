@@ -36,6 +36,6 @@
 
 # 解题思路
 
-* Solution1：
+* Solution1：有向图环判断，参考《算法》4 edition
 
 
