@@ -12,14 +12,15 @@ public class Solution1 {
 	private boolean hasCycle;
 	private Stack<Integer> reversePost;
 
+	@SuppressWarnings("unchecked")
 	public int[] findOrder(int numCourses, int[][] prerequisites) {
 		graph = new List[numCourses];
 		for (int i = 0; i < numCourses; i++) {
-			graph[i] = new LinkedList();
+			graph[i] = new LinkedList<>();
 		}
 		marked = new boolean[numCourses];
 		onStack = new boolean[numCourses];
-		reversePost = new Stack();
+		reversePost = new Stack<>();
 
 		for (int i = 0; i < prerequisites.length; i++) {
 			graph[prerequisites[i][0]].add(prerequisites[i][1]);
