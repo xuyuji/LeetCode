@@ -33,7 +33,7 @@ public class Solution1Test {
 		assertTrue(solution.canFinish(8, new int[][] { new int[] { 1, 0 } }));
 	}
 
-	@Test
+	@Test(timeout = 10)
 	public void testCanFinish4() {
 		assertFalse(solution.canFinish(700,
 				new int[][] { new int[] { 78, 355 }, new int[] { 498, 138 }, new int[] { 462, 346 },
