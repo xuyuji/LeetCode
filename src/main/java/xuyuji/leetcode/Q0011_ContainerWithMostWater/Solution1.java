@@ -1,7 +1,5 @@
 package xuyuji.leetcode.Q0011_ContainerWithMostWater;
 
-import java.io.IOException;
-
 public class Solution1 {
 	public int maxArea(int[] height) {
 		int maxArea = 0;
@@ -16,10 +14,5 @@ public class Solution1 {
 			}
 		}
 		return maxArea;
-	}
-
-	public static void main(String[] args) throws IOException {
-		System.out.println(new Solution1().maxArea(new int[] { 2, 3, 2, 1 }));
-
 	}
 }
