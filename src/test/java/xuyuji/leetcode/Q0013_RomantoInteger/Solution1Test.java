@@ -2,8 +2,6 @@ package xuyuji.leetcode.Q0013_RomantoInteger;
 
 import static org.junit.Assert.assertEquals;
 
-import java.io.IOException;
-
 import org.junit.Before;
 import org.junit.Test;
 
@@ -12,7 +10,7 @@ public class Solution1Test {
 	private Solution1 solution;
 
 	@Before
-	public void setup() throws IOException {
+	public void setup() {
 		solution = new Solution1();
 	}
 

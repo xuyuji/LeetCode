@@ -2,8 +2,6 @@ package xuyuji.leetcode.Q0012_IntegertoRoman;
 
 import static org.junit.Assert.assertEquals;
 
-import java.io.IOException;
-
 import org.junit.Before;
 import org.junit.Test;
 
@@ -12,7 +10,7 @@ public class Solution2Test {
 	private Solution2 solution;
 
 	@Before
-	public void setup() throws IOException {
+	public void setup() {
 		solution = new Solution2();
 	}
 
