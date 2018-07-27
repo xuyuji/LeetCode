@@ -1,7 +1,5 @@
 package xuyuji.leetcode.Q0014_LongestCommonPrefix;
 
-import java.io.IOException;
-
 public class Solution1 {
 	public String longestCommonPrefix(String[] strs) {
 		if (strs == null || strs.length == 0) {
@@ -24,10 +22,5 @@ public class Solution1 {
 			result.append(c);
 		}
 		return result.toString();
-	}
-
-	public static void main(String[] args) throws IOException {
-		Solution1 solution = new Solution1();
-		System.out.println(solution.longestCommonPrefix(new String[] { "flower", "flow", "flight" }));
 	}
 }
