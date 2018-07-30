@@ -5,13 +5,13 @@ import static org.junit.Assert.assertArrayEquals;
 import org.junit.Before;
 import org.junit.Test;
 
-public class Solution1Test {
+public class Solution3Test {
 
-	private Solution1 solution;
+	private Solution2 solution;
 
 	@Before
 	public void setup() {
-		solution = new Solution1();
+		solution = new Solution2();
 	}
 
 	@Test
