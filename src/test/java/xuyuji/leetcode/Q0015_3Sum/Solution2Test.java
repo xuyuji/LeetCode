@@ -18,28 +18,28 @@ public class Solution2Test {
 	}
 
 	@Test
-	public void testTwoSum1() {
+	public void testThreeSum1() {
 		List<List<Integer>> result = solution.threeSum(new int[] { -1, 0, 1, 2, -1, -4 });
 		assertNotNull(result);
 		assertEquals(2, result.size());
 	}
 
 	@Test
-	public void testTwoSum2() {
+	public void testThreeSum2() {
 		List<List<Integer>> result = solution.threeSum(new int[] { -1, 0, 0, 0, -1, 2, 1, -4 });
 		assertNotNull(result);
 		assertEquals(3, result.size());
 	}
 
 	@Test
-	public void testTwoSum3() {
+	public void testThreeSum3() {
 		List<List<Integer>> result = solution.threeSum(new int[] { 2, -5, 4, 0, 1, -4, -1, 2, -3, -2, -1, -5 });
 		assertNotNull(result);
 		assertEquals(8, result.size());
 	}
 
 	@Test(timeout = 100)
-	public void testTwoSum4() {
+	public void testThreeSum4() {
 		List<List<Integer>> result = solution.threeSum(new int[] { 82597, -9243, 62390, 83030, -97960, -26521, -61011,
 				83390, -38677, 12333, 75987, 46091, 83794, 19355, -71037, -6242, -28801, 324, 1202, -90885, -2989,
 				-95597, -34333, 35528, 5680, 89093, -90606, 50360, -29393, -27012, 53313, 65213, 99818, -82405, -41661,
