@@ -1,6 +1,5 @@
 package xuyuji.leetcode.Q0015_3Sum;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -93,16 +92,5 @@ public class Solution2 {
 			}
 		}
 		return res;
-	}
-
-	public static void main(String[] args) throws IOException {
-		Solution2 solution = new Solution2();
-		List<List<Integer>> list = solution.threeSum(new int[] { -1, 0, 1, 2, -1, -4 });
-
-		int[][] arr3 = { { 2, 3, 1 }, { 7, 5, 4, 9 }, { 5, 0 } };
-
-		System.out.println(solution.threeSum(new int[] { -1, 0, 1, 2, -1, -4 }));
-		System.out.println(solution.threeSum(new int[] { -2, 0, 1, 1, 2 }));
-		System.out.println(solution.threeSum(new int[] { -2, -1, -1, 0, 1, 1, 2 }));
 	}
 }
