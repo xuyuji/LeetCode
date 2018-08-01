@@ -1,4 +1,4 @@
-package xuyuji.leetcode.Q0002_AddTwoNumbers;
+package xuyuji.leetcode.Q0206_ReverseLinkedList;
 
 public class ListNode {
 	int val;
