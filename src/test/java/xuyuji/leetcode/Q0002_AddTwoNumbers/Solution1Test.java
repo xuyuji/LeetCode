@@ -5,6 +5,8 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Before;
 import org.junit.Test;
 
+import xuyuji.leetcode.common.linkedList.ListNode;
+
 public class Solution1Test {
 
 	private Solution1 solution;

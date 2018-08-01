@@ -1,5 +1,7 @@
 package xuyuji.leetcode.Q0021_MergeTwoSortedLists;
 
+import xuyuji.leetcode.common.linkedList.ListNode;
+
 public class Solution2 {
 	public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
 		if (l1 == null) {

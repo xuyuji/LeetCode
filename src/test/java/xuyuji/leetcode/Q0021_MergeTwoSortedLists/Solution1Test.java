@@ -6,6 +6,8 @@ import static org.junit.Assert.assertTrue;
 import org.junit.Before;
 import org.junit.Test;
 
+import xuyuji.leetcode.common.linkedList.ListNode;
+
 public class Solution1Test {
 
 	private Solution1 solution;
@@ -17,31 +19,19 @@ public class Solution1Test {
 
 	@Test
 	public void testMergeTwoLists1() {
-		ListNode result = solution.mergeTwoLists(buildLinkedList(new int[] { 1, 2, 4 }),
-				buildLinkedList(new int[] { 1, 3, 4 }));
+		ListNode result = solution.mergeTwoLists(ListNode.valueOf(new int[] { 1, 2, 4 }),
+				ListNode.valueOf(new int[] { 1, 3, 4 }));
 
 		assertNotNull(result);
-		assertTrue(result.isEquals(buildLinkedList(new int[] { 1, 1, 2, 3, 4, 4 })));
+		assertTrue(result.isEquals(ListNode.valueOf((new int[] { 1, 1, 2, 3, 4, 4 }))));
 	}
 
 	@Test
 	public void testMergeTwoLists2() {
-		ListNode result = solution.mergeTwoLists(buildLinkedList(new int[] { -9, 3 }),
-				buildLinkedList(new int[] { 5, 7 }));
+		ListNode result = solution.mergeTwoLists(ListNode.valueOf(new int[] { -9, 3 }),
+				ListNode.valueOf(new int[] { 5, 7 }));
 
 		assertNotNull(result);
-		assertTrue(result.isEquals(buildLinkedList(new int[] { -9, 3, 5, 7 })));
-	}
-
-	private static ListNode buildLinkedList(int[] array) {
-		ListNode head = new ListNode(array[0]);
-		ListNode pre = head;
-		ListNode node;
-		for (int i = 1; i < array.length; i++) {
-			node = new ListNode(array[i]);
-			pre.next = node;
-			pre = node;
-		}
-		return head;
+		assertTrue(result.isEquals(ListNode.valueOf((new int[] { -9, 3, 5, 7 }))));
 	}
 }

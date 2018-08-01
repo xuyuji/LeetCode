@@ -1,10 +1,10 @@
-package xuyuji.leetcode.Q0021_MergeTwoSortedLists;
+package xuyuji.leetcode.common.linkedList;
 
 public class ListNode {
-	int val;
-	ListNode next;
+	public int val;
+	public ListNode next;
 
-	ListNode(int x) {
+	public ListNode(int x) {
 		val = x;
 	}
 
@@ -30,5 +30,17 @@ public class ListNode {
 		} else {
 			return false;
 		}
+	}
+
+	public static ListNode valueOf(int[] array) {
+		ListNode head = new ListNode(array[0]);
+		ListNode pre = head;
+		ListNode node;
+		for (int i = 1; i < array.length; i++) {
+			node = new ListNode(array[i]);
+			pre.next = node;
+			pre = node;
+		}
+		return head;
 	}
 }
