@@ -43,4 +43,19 @@ public class ListNode {
 		}
 		return head;
 	}
+
+	@Override
+	public String toString() {
+		StringBuilder sb = new StringBuilder();
+		sb.append("ListNode[");
+		sb.append(this.val);
+
+		ListNode node = this.next;
+		while (node != null) {
+			sb.append(",").append(node.val);
+			node = node.next;
+		}
+		sb.append("]");
+		return sb.toString();
+	}
 }
