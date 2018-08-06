@@ -2,14 +2,12 @@ package xuyuji.leetcode.Q0011_ContainerWithMostWater;
 
 import static org.junit.Assert.assertEquals;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 import org.junit.Before;
 import org.junit.Test;
+
+import xuyuji.leetcode.common.FileData;
 
 public class Solution1Test {
 
@@ -24,22 +22,7 @@ public class Solution1Test {
 	}
 
 	private void initLongArray() throws IOException {
-		BufferedReader reader = new BufferedReader(
-				new FileReader("src\\main\\resources\\xuyuji\\leetcode\\Q0011_ContainerWithMostWater\\data.txt"));
-
-		List<Integer> list = new ArrayList<>();
-		String line = null;
-		while ((line = reader.readLine()) != null) {
-			for (String numStr : line.split(",")) {
-				list.add(Integer.parseInt(numStr));
-			}
-		}
-		reader.close();
-
-		longArray = new int[list.size()];
-		for (int i = 0; i < list.size(); i++) {
-			longArray[i] = list.get(i);
-		}
+		longArray = FileData.readArray("src\\main\\resources\\xuyuji\\leetcode\\Q0011_ContainerWithMostWater\\data.txt");
 	}
 
 	@Test
