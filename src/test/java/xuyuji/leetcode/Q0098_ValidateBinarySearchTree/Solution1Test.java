@@ -6,6 +6,8 @@ import static org.junit.Assert.assertTrue;
 import org.junit.Before;
 import org.junit.Test;
 
+import xuyuji.leetcode.common.tree.TreeNode;
+
 public class Solution1Test {
 
 	private Solution1 solution;
