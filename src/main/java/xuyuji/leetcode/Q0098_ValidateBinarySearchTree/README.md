@@ -38,6 +38,6 @@
 # 解题思路
 
 * Solution1：node.val > leftMaxVal && node.val < rightMinVal
-* Solution2：leetcode高分答案，精妙的递归处理。
+* Solution2：leetcode高分答案，中序遍历。
 
 
