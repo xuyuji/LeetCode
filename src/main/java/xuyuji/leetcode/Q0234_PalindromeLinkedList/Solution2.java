@@ -3,7 +3,7 @@ package xuyuji.leetcode.Q0234_PalindromeLinkedList;
 import java.util.ArrayList;
 import java.util.List;
 
-import xuyuji.leetcode.common.FileData;
+import xuyuji.leetcode.common.FileNumsData;
 import xuyuji.leetcode.common.linkedList.ListNode;
 
 public class Solution2 {
@@ -41,7 +41,7 @@ public class Solution2 {
 		System.out.println(s.isPalindrome(ListNode.valueOf(new int[] { 1, 2, 2, 1 })));
 		System.out.println(s.isPalindrome(ListNode.valueOf(new int[] { 1, 2, 1 })));
 		System.out.println(s.isPalindrome(ListNode.valueOf(
-				FileData.readArray("src\\main\\resources\\xuyuji\\leetcode\\Q0234_PalindromeLinkedList\\data.txt"))));
+				FileNumsData.readArray("src\\main\\resources\\xuyuji\\leetcode\\Q0234_PalindromeLinkedList\\data.txt"))));
 		System.out.println(s.isPalindrome(ListNode.valueOf(new int[] { -129, -129 })));
 	}
 }

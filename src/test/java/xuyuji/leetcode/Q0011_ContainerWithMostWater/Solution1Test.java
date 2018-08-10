@@ -7,7 +7,7 @@ import java.io.IOException;
 import org.junit.Before;
 import org.junit.Test;
 
-import xuyuji.leetcode.common.FileData;
+import xuyuji.leetcode.common.FileNumsData;
 
 public class Solution1Test {
 
@@ -22,7 +22,7 @@ public class Solution1Test {
 	}
 
 	private void initLongArray() throws IOException {
-		longArray = FileData.readArray("src\\main\\resources\\xuyuji\\leetcode\\Q0011_ContainerWithMostWater\\data.txt");
+		longArray = FileNumsData.readArray("src\\main\\resources\\xuyuji\\leetcode\\Q0011_ContainerWithMostWater\\data.txt");
 	}
 
 	@Test

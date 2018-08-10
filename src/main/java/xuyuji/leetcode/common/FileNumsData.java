@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FileData {
+public class FileNumsData {
 
 	public static int[] readArray(String filePath) {
 		return readArray(filePath, ",");

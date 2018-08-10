@@ -6,7 +6,7 @@ import static org.junit.Assert.assertTrue;
 import org.junit.Before;
 import org.junit.Test;
 
-import xuyuji.leetcode.common.FileData;
+import xuyuji.leetcode.common.FileNumsData;
 import xuyuji.leetcode.common.linkedList.ListNode;
 
 public class Solution2Test {
@@ -46,7 +46,7 @@ public class Solution2Test {
 	@Test
 	public void testIsPalindrome6() {
 		assertFalse(solution.isPalindrome(ListNode.valueOf(
-				FileData.readArray("src\\main\\resources\\xuyuji\\leetcode\\Q0234_PalindromeLinkedList\\data.txt"))));
+				FileNumsData.readArray("src\\main\\resources\\xuyuji\\leetcode\\Q0234_PalindromeLinkedList\\data.txt"))));
 	}
 
 }
