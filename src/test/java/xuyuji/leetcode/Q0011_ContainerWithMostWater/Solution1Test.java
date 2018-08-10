@@ -22,7 +22,8 @@ public class Solution1Test {
 	}
 
 	private void initLongArray() throws IOException {
-		longArray = FileNumsData.readArray("src\\main\\resources\\xuyuji\\leetcode\\Q0011_ContainerWithMostWater\\data.txt");
+		longArray = FileNumsData
+				.readArray("src\\main\\resources\\xuyuji\\leetcode\\Q0011_ContainerWithMostWater\\data.txt");
 	}
 
 	@Test
@@ -32,7 +33,7 @@ public class Solution1Test {
 
 	@Test(timeout = 2)
 	public void testMaxArea2() {
-		assertEquals(56250000, solution.maxArea(longArray));
+		assertEquals(1606840916, solution.maxArea(longArray));
 	}
 
 	@Test
