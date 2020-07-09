@@ -16,7 +16,7 @@ public class Solution1Test {
     }
 
     @Test
-    public void testremoveElement1() {
+    public void testRemoveElement1() {
         int[] nums = new int[] {3, 2, 2, 3};
         int len = solution.removeElement(nums, 3);
 

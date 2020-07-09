@@ -15,14 +15,14 @@ public class Solution1Test {
     }
 
     @Test
-    public void threeSumClosest1() {
+    public void testThreeSumClosest1() {
         int result = solution.threeSumClosest(new int[] {-1, 2, 1, -4}, 1);
         assertNotNull(result);
         assertEquals(2, result);
     }
 
     @Test
-    public void threeSumClosest2() {
+    public void testThreeSumClosest2() {
         int result = solution.threeSumClosest(new int[] {0, 2, 1, -3}, 1);
         assertNotNull(result);
         assertEquals(0, result);
