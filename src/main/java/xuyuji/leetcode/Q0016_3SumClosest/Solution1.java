@@ -28,9 +28,4 @@ public class Solution1 {
 
         return result;
     }
-
-    public static void main(String[] args) {
-        System.out.println(new Solution1().threeSumClosest(new int[] {-1, 2, 1, -4}, 1));
-        System.out.println(new Solution1().threeSumClosest(new int[] {0, 2, 1, -3}, 1)); // 预期0？
-    }
 }
